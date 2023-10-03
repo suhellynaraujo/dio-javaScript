@@ -12,17 +12,11 @@
 - http-server ./ ⇒ abre o html no local escolhido       
   
         💡 deu erro
-        
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/4e8a2386-7757-41fc-a59c-a1f7a620735c/Untitled.png)
-        
+              
         é só digitar `Set-ExecutionPolicy RemoteSigned` ou `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
-        
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/3a4cf3d0-caff-421d-a2c0-4f5c236bf189/Untitled.png)
-        
+                       
         mostrando o domínio particular
-        
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/dc9129ab-f437-4a70-bf52-bd867dda34ea/Untitled.png)
-        
+                
         **e assim testar pelo celular**   
         
 - Iniciando com HTML
@@ -71,8 +65,6 @@
     <link rel="stylesheet" href="./assets/css/global.css">
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/7c61a64f-6a13-4a76-a996-4b5f36c0d229/Untitled.png)
-    
 - Importar js
     
     adicionar a tag script dentro do body, final 
@@ -81,23 +73,11 @@
     <script src="./assets/js/main.js">
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/1dfa6a55-c34f-4c7f-badf-f0d6f1a23199/Untitled.png)
-    
 - Fonts
     
     [Browse Fonts - Google Fonts](https://fonts.google.com/)
     
-    selecione os tamanhos desejados 
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/60259bb6-b8e4-4f12-9c66-51b30c4bed0a/Untitled.png)
-    
-    copie o link 
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/f0c0f493-ca2c-4d9b-878d-b643899f6b6c/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/e302550d-c77a-4b25-a4ba-76f079d2fb35/Untitled.png)
-    
+    selecione os tamanhos desejados     
+    copie o link   
     Chame a fonte no css 
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61ccb702-4f51-4122-adf2-d43ab001c5f7/9c873c28-0b7e-4f9c-ac5a-1b55a27ff5dc/Untitled.png)
-   
