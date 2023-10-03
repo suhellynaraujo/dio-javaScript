@@ -14,7 +14,7 @@
         💡 deu erro
               
         é só digitar `Set-ExecutionPolicy RemoteSigned` ou `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
-                       
+
         mostrando o domínio particular
                 
         **e assim testar pelo celular**   
@@ -80,4 +80,13 @@
     selecione os tamanhos desejados     
     copie o link   
     Chame a fonte no css 
+
+- buscar imagens na api do pokemon
+
+ https://pokeapi.co/docs/v2#pokemon adicionar na tag img "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
     
+- Midea Query
+    
+    Conjunto de css que será aplicado de acordo do tamanho das telas
+    
+    https://www.w3schools.com/css/css3_mediaqueries_ex.asp
