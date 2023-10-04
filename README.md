@@ -90,3 +90,73 @@
     Conjunto de css que será aplicado de acordo do tamanho das telas
     
     https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+
+# Protocolo de comunicação HTTP
+
+    - Protocolo cliente servidor
+
+    - Request x Response
+
+- Requisição HTTP
+    
+    
+    URL ⇒ https://[pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
+    
+    {IP} /  {PATH} (IP e Porta do servidor)
+    
+    IP ⇒ {endereço} https://[pokeapi.co](https://pokeapi.co/api/v2/pokemon) 
+    
+    PATH ⇒  {caminho de identificação do recursos } [api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
+    
+    - Request Method
+        - GET ⇒ Buscar recursos
+        - POST ⇒ inserir um novo dados
+        - PUT ⇒ atualizar um dado
+        - DELETE ⇒ deletar um dado
+        
+- Query String
+    
+    Descrição de buscas  ( *MÉTODO GET* )
+    
+    Em uma URL começa logo após o **?** é a *query string* 
+    
+    chave e valor
+       
+    conseguimos limitar a quantidade de paginas e conteudo por exemplo
+    
+    Passagem de parâmetros próprio path ou pela query string- Headers (Navegador)
+    
+    São áreas de dados que podemos transmitir e receber dados pelo servidor
+    
+    Metadados da requisição, descreve ou complementa a requisição
+    
+- Request Headers
+    
+    Configuração da requisiçção, quem faz é o cliente( o browser)
+    
+- Response Headers
+    
+    Configuração da resposta, quem faz é o servidor
+    
+- Request Body
+    
+    tera o json 
+    
+    ```json
+    {
+    	"nome" : "Teste"
+    }
+    ```
+    
+- Requisição
+
+- URL
+- Request Method
+- Request Headers
+- Request Body
+
+- Resposta
+
+- Status code
+- Response Headers
+- Response Body
