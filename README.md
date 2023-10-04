@@ -91,6 +91,8 @@
     
     https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
+# Dominando o Protocolo HTTP e Integrando com a PokeAPI
+
 - Protocolo de comunicação HTTP
 
     - Protocolo cliente servidor
@@ -108,11 +110,12 @@
     
    - PATH ⇒  {caminho de identificação do recursos } [api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
     
-    - Request Method
-        - GET ⇒ Buscar recursos
-        - POST ⇒ inserir um novo dados
-        - PUT ⇒ atualizar um dado
-        - DELETE ⇒ deletar um dado
+- Request Method
+
+    - GET ⇒ Buscar recursos
+    - POST ⇒ inserir um novo dados
+    - PUT ⇒ atualizar um dado
+    - DELETE ⇒ deletar um dado
         
 - Query String
     
