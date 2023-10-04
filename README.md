@@ -91,7 +91,7 @@
     
     https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
-# Protocolo de comunicação HTTP
+- Protocolo de comunicação HTTP
 
     - Protocolo cliente servidor
 
@@ -100,13 +100,13 @@
 - Requisição HTTP
     
     
-    URL ⇒ https://[pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
+   - URL ⇒ https://[pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
     
-    {IP} /  {PATH} (IP e Porta do servidor)
+   - {IP} /  {PATH} (IP e Porta do servidor)
     
-    IP ⇒ {endereço} https://[pokeapi.co](https://pokeapi.co/api/v2/pokemon) 
+   - IP ⇒ {endereço} https://[pokeapi.co](https://pokeapi.co/api/v2/pokemon) 
     
-    PATH ⇒  {caminho de identificação do recursos } [api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
+   - PATH ⇒  {caminho de identificação do recursos } [api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
     
     - Request Method
         - GET ⇒ Buscar recursos
@@ -116,27 +116,27 @@
         
 - Query String
     
-    Descrição de buscas  ( *MÉTODO GET* )
+   - Descrição de buscas  ( *MÉTODO GET* )
     
-    Em uma URL começa logo após o **?** é a *query string* 
+   - Em uma URL começa logo após o **?** é a *query string* 
     
-    chave e valor
+   - chave e valor
        
-    conseguimos limitar a quantidade de paginas e conteudo por exemplo
+   - conseguimos limitar a quantidade de paginas e conteudo por exemplo
     
-    Passagem de parâmetros próprio path ou pela query string- Headers (Navegador)
+   - Passagem de parâmetros próprio path ou pela query string- Headers (Navegador)
     
-    São áreas de dados que podemos transmitir e receber dados pelo servidor
+   - São áreas de dados que podemos transmitir e receber dados pelo servidor
     
-    Metadados da requisição, descreve ou complementa a requisição
+   - Metadados da requisição, descreve ou complementa a requisição
     
 - Request Headers
     
-    Configuração da requisiçção, quem faz é o cliente( o browser)
+   - Configuração da requisiçção, quem faz é o cliente( o browser)
     
 - Response Headers
     
-    Configuração da resposta, quem faz é o servidor
+   - Configuração da resposta, quem faz é o servidor
     
 - Request Body
     
@@ -150,13 +150,13 @@
     
 - Requisição
 
-- URL
-- Request Method
-- Request Headers
-- Request Body
+    - URL
+    - Request Method
+    - Request Headers
+    - Request Body
 
 - Resposta
 
-- Status code
-- Response Headers
-- Response Body
+    - Status code
+    - Response Headers
+    - Response Body
