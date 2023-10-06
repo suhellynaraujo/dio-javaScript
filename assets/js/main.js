@@ -1,26 +1,3 @@
-// processamento assicrono, promessa de uma resposta
-//o fetch processa, aguardando a resposta do servidor, depois executa a função de callback (function(response))
-/*fetch(url)
-    .then(function (response) {
-        console.log(response)
-
-        response.json()
-            .then(function (responseBody) {
-                console.log(responseBody)
-            })
-    })
-
-    .then(function(jsonBody){
-        console.log(jsonBody)
-    })
-
-    .catch(function (error) {
-        console.log(error)
-    })
-
-    .finally(function () {
-        console.log("Requisição concluida!")
-    })*/
 
 //encadeamento
 function convertPokemonToLi(pokemon) {
@@ -40,27 +17,9 @@ function convertPokemonToLi(pokemon) {
 }
 
 const pokemonList = document.getElementById('pokemonList')
-/*
-fetch(url)
-    .then((response) => response.json())
-    .then((jsonBody) => jsonBody.results)
-    .then((pokemons) => {
-        /*debugger
-        console.log(pokemonList)
 
-        for (let index = 0; index < pokemons.length; index++) {
-            const pokemon = pokemons[index];
-            pokemonList.innerHTML += (convertPokemonToLi(pokemon))            
-        }
-    })
-    .catch((error) => console.error(error))*/
-
-pokeAPI.getPokemons().then((pokemons) => { 
-
-    for (let index = 0; index < pokemons.length; index++) {
-        const pokemon = pokemons[index];
-        pokemonList.innerHTML += (convertPokemonToLi(pokemon))            
-    }
+pokeAPI.getPokemons().then((pokemons = []) => { 
+    pokemonList.innerHTML += pokemons.map(convertPokemonToLi).join('')
 })
 
 
