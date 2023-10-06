@@ -163,3 +163,16 @@
     - Status code
     - Response Headers
     - Response Body
+
+# Requisição HTTP via JS
+
+- Acessar featch api (já dispovivel por todos os navegadores, não necessario utilizar o jquery por exemplo)
+    - fetch api get json => https://developer.mozilla.org/en-US/docs/Web/API/Response/json
+        - fetch 
+            -  retorna uma promise, que ajuda no cincronismo
+            -  processamento assicrono
+            - promessa de uma resposta
+        - catch
+            - trata a messagen de erro
+        - finaly 
+            - finaliza o processo idependente do resultado
